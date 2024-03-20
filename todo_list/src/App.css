@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  font-family: 'Arial Black', sans-serif;
+  font-style: italic;
+  color: #2c3e50;
+}
+
+body {
+  background-color: #d7bde2; /* Fondo lila */
+  font-family: Arial, sans-serif;
+}
+
+#todo-list {
+  width: 600px;
+  margin: 60px auto;
+}
+
+form,
+.todo {
+  border: 2px solid #9b59b6; /* Borde violeta */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f5eef8; /* Fondo blanco */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+form input {
+  padding: 10px;
+  flex-grow: 1;
+  margin-right: 16px;
+  border: 1px solid #9b59b6; /* Borde violeta */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: 16px;
+  background-color: #e74c3c; /* Rojo */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c0392b; /* Rojo oscuro */
+}
+
+button:active {
+  background-color: #922b21; /* Rojo más oscuro */
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type='text'] {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+
+.todo input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 0 16px 0 0;
+  cursor: pointer;
+}
+
+.todo-text input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.todo-text {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-completed {
+  display: flex;
+  margin: 10px 0;
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+#completed {
+  margin-left: 15px;
+}
